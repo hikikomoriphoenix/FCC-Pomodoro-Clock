@@ -1,0 +1,28 @@
+@import "../node_modules/rfs/scss";
+
+.control-btns {
+  background-color: transparent;
+  border-style: none;
+  color: white;
+  @include font-size(40px);
+}
+
+.length-value {
+  color: white;
+  padding: 20px;
+  @include font-size(40px);
+}
+
+#timer-label {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 40px;
+  padding: 5px 50px;
+}
+
+#time-left {
+  @include font-size(250px);
+}
+
+#reset {
+  margin-left: 40px;
+}
